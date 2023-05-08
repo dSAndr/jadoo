@@ -28,8 +28,8 @@ html {
 }
 
 body {
-    background: url('/images/src/top-corner.svg') left top no-repeat, 
-                url('/images/src/bottom-corner.svg') right bottom no-repeat;
+    background: url('../images/src/top-corner.svg') left top no-repeat, 
+                url('../images/src/bottom-corner.svg') right bottom no-repeat;
 
     // position: fixed;
 }
@@ -54,7 +54,7 @@ button {
 }
 
 .header-opening {
-    background: url('/images/src/DecoreBackground.svg') center/cover no-repeat;
+    background: url('../images/src/DecoreBackground.svg') center/cover no-repeat;
 }
 
 .subtitle {

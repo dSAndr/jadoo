@@ -7,7 +7,7 @@
         background: rgba(0, 0, 0, 0);
     
         @media (min-width: 768px) {
-            background: url('/images/src/Traveler.png') 110% top/contain no-repeat;
+            background: url('../images/src/Traveler.png') 110% top/contain no-repeat;
         }
     }
 
@@ -50,7 +50,7 @@
             z-index: -1;
             width: 38.5rem;
             height: 1rem;
-            background: url('/images/src/DecoreUnderline.svg') center no-repeat;
+            background: url('../images/src/DecoreUnderline.svg') center no-repeat;
         }
     }
 

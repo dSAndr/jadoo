@@ -7,7 +7,7 @@
         position: relative;
         padding: 8rem;
         border-radius: 2rem 2rem 2rem 2rem;
-        background: url('/images/src/purple-background.svg') center no-repeat;
+        background: url('../images/src/purple-background.svg') center no-repeat;
     
         &::after {
             content: '';
@@ -17,7 +17,7 @@
             width: 7rem;
             height: 7rem;
             border-radius: 4rem;
-            background: url('/images/src/paper-airlpane.svg') center no-repeat;
+            background: url('../images/src/paper-airlpane.svg') center no-repeat;
             background-size: cover;
         }
         
@@ -30,7 +30,7 @@
             width: 15.3rem;
             height: 16.6rem;
             overflow-x: clip;
-            background: url('/images/src/pros-bot.svg') no-repeat;
+            background: url('../images/src/pros-bot.svg') no-repeat;
             background-size: cover;
         }
     }
@@ -64,7 +64,7 @@
         font-size: 1.4rem;
         line-height: 1.7rem;
         color: #39425D;
-        background: url('/images/src/mail.svg') 6% no-repeat;    
+        background: url('../images/src/mail.svg') 6% no-repeat;    
         background-color: #fff;
     }
     

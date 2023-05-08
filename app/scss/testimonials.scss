@@ -44,7 +44,7 @@
         &_mike {
     
             &::after {
-                background: url('/images/src/Mike.svg') no-repeat; 
+                background: url('../images/src/Mike.svg') no-repeat; 
             }
         }
         
@@ -52,7 +52,7 @@
         
             &::after {
                 content: '';
-                background: url('/images/src/Kris.jpeg') center 35% no-repeat;
+                background: url('../images/src/Kris.jpeg') center 35% no-repeat;
             }   
         }    
         
@@ -62,7 +62,7 @@
                 content: '';
                 width: 6.8rem;
                 height: 6.8rem;
-                background: url('/images/src/Marina.jpeg') right 35% no-repeat;
+                background: url('../images/src/Marina.jpeg') right 35% no-repeat;
             }
         }
     }
@@ -136,11 +136,11 @@
     }
     
     &-button-prev {
-        background: url('/images/src/arrow-top.svg') no-repeat;
+        background: url('../images/src/arrow-top.svg') no-repeat;
     }
     
     &-button-next {
-        background: url('/images/src/arrow-bottom.svg') no-repeat;
+        background: url('../images/src/arrow-bottom.svg') no-repeat;
     }
     
     &-pagination {

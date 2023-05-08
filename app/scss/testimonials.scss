@@ -1,0 +1,149 @@
+@import 'variables.scss';
+
+.testimonials {
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        max-width: 120rem;
+        width: 100%;
+        margin: 21rem auto;
+        padding: 0 4rem;
+    }
+
+    &__titles {
+        width: 50%;
+        text-align: left;
+    }
+    
+    &__subtitle {
+        margin-top: 1rem;
+    }
+    
+    &__slide-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0 0 3rem;
+        max-width: 50rem;
+        min-height: 25rem;
+        padding: 3rem 7rem 3.5rem 3.5rem;
+        background: #FFFFFF;
+        border-radius: 1rem;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: -3rem;
+            top: -3rem;
+            width: 7rem;
+            height: 7rem;
+            border-radius: 4rem;
+        }
+
+        &_mike {
+    
+            &::after {
+                background: url('/images/src/Mike.svg') no-repeat; 
+            }
+        }
+        
+        &_chris {
+        
+            &::after {
+                content: '';
+                background: url('/images/src/Kris.jpeg') center 35% no-repeat;
+            }   
+        }    
+        
+        &_marina {
+    
+            &::after {
+                content: '';
+                width: 6.8rem;
+                height: 6.8rem;
+                background: url('/images/src/Marina.jpeg') right 35% no-repeat;
+            }
+        }
+    }
+    
+    &__text {
+        margin-bottom: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        color: $DarkColor;
+    }
+    
+    &__name {
+        margin-top: 3.5rem;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        color: $DarkColor;
+    }
+    
+    &__signature {
+        margin-top: .5rem;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        color: $DarkColor;
+    }
+    
+    &__arrow-wrap {
+        display: absolute;
+        right: -1rem;
+        top: 1.5rem;
+    }
+}
+
+.swiper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 200rem;
+    height: 30rem;
+
+    &-slide {
+        position: absolute;
+
+        &-active {
+            position: relative;
+            z-index: 2;
+            left: 0;
+            top: 0;
+        }
+        
+        &-next {
+            position: absolute;
+            left: 5rem;
+            top: 9rem;
+            z-index: 1;
+        }
+        
+        &-prev {
+            z-index: 0;
+        }
+    }
+    
+    &-wrapper {
+        position: relative;
+        width: auto;
+    }
+    
+    &-button-prev {
+        background: url('/images/src/arrow-top.svg') no-repeat;
+    }
+    
+    &-button-next {
+        background: url('/images/src/arrow-bottom.svg') no-repeat;
+    }
+    
+    &-pagination {
+        margin: 12rem 0 0 -1.25rem;
+    }
+}

@@ -1,0 +1,102 @@
+@import 'variables.scss';
+
+.footer {
+
+    &__block {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 19rem;
+    }
+    
+    &__logo {
+        font-size: 4.4rem;
+        color: #181E4B;
+        text-decoration: none;
+    }
+    
+    &__logo-text {
+        margin-top: 3rem;
+        font-size: 1.3rem;
+        color: $DarkColor;
+    }
+    
+    &__link-wrap {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    &__title {
+        margin-bottom: 2.5rem;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 124.5%;
+        color: #080809;
+    }
+    
+    &__link {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: $DarkColor;
+    
+        &:hover {
+            text-decoration: underline;
+        }
+        
+        &:active {
+            text-decoration: none;
+        }
+    }
+    
+    &__network {
+        margin-top: 1rem;
+    }
+    
+    &__social-net {
+        max-width: 17rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__social-link {
+        text-decoration: none;
+    }
+    
+    &__social-img {
+        width: 4.5rem;
+    }
+    
+    &__subtitle {
+        margin-top: 2.5rem;
+        font-size: 2rem;
+        letter-spacing: .005em;
+        color: $DarkColor;
+    }
+    
+    &__apps {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        min-width: 20rem;
+    }
+    
+    &__app-link {
+        text-decoration: none;
+    }
+    
+    &__app-img {
+        width: 95%;
+        height: auto;
+    }
+    
+    &__mail {
+        margin: 8.5rem 0 8rem;
+        font-size: 1.4rem;
+        text-align: center;
+        color: $DarkColor;
+    }
+}

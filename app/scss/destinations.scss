@@ -1,0 +1,87 @@
+@import 'variables.scss';
+
+.destinations {
+
+    &__content {
+        margin-top: 15.5rem;
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+
+    &__title {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    &__cities {
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__city {
+        width: calc(33% - 1rem);
+
+        &_right {
+            position: relative;
+    
+            &::after {
+                content: '';
+                position: absolute;
+                right: -6rem;
+                top: 16rem;
+                z-index: -1;
+                width: 9.6rem;
+                height: 25.4rem;
+                background: url('/images/src/Decore.svg') right top no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.trip {
+    filter: 
+        drop-shadow(0 10rem 8rem rgba(0, 0, 0, .02))
+        drop-shadow(0 6.481rem 4.685rem rgba(0, 0, 0, .015))
+        drop-shadow(0 3.851rem 25.481rem rgba(0, 0, 0, .012))
+        drop-shadow(0 20rem 13rem rgba(0, 0, 0, .01))
+        drop-shadow(0 .814rem .651rem rgba(0, 0, 0, .007))
+        drop-shadow(0 1.85185rem .314rem rgba(0, 0, 0, .004));
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__price {
+        padding: 2.5rem 2.5rem 0;
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        color: $DarkColor;
+    }
+
+    &__term {
+        padding: 2rem 2.5rem 4rem 2.5rem;
+        display: flex;
+        justify-content: start;
+        background: #FFFFFF;
+        border-radius: 0 0 2.4rem 2.4rem;
+    }
+
+    &__text-term {
+        font-size: 1.6rem;
+        color: $DarkColor;
+    }
+
+    &__vector {
+        margin-right: 1.5rem;
+    }
+}

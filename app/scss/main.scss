@@ -1,0 +1,101 @@
+@import 'variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 5px;
+    overflow-x: hidden;
+
+    @media (min-width: 576px) {
+        font-size: 6px;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 7px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 9px;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 10px;
+    }
+}
+
+body {
+    background: url('/images/src/top-corner.svg') left top no-repeat, 
+                url('/images/src/bottom-corner.svg') right bottom no-repeat;
+
+    // position: fixed;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    &_top {
+        padding: 5rem 2rem 0;
+    }
+
+    &_bottom {
+        padding-bottom: 8rem;
+    }
+}
+
+.header-opening {
+    background: url('/images/src/DecoreBackground.svg') center/cover no-repeat;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-transform: uppercase;
+    color: $DarkColor;
+}
+
+.title {
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.4rem;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+.text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: $DarkColor;
+}
+
+.shadow {
+    box-shadow:
+        0 10rem 8rem rgba(0, 0, 0, .02),
+        0 6.481rem 4.685rem rgba(0, 0, 0, .015),
+        0 3.851rem 2.548rem rgba(0, 0, 0, .012),
+        0 2rem 1.3rem rgba(0, 0, 0, .01),
+        0 .814rem .651rem rgba(0, 0, 0, .007),
+        0 .185rem .314rem rgba(0, 0, 0, .004);
+}
+
+.font-primary {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.245;
+}

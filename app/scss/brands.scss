@@ -1,0 +1,36 @@
+.brands {
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16rem;
+    }
+
+    &__wrapper {
+        width: 24rem;
+        height: 8.5rem;
+        display: flex;
+        filter: grayscale(1);
+        background:rgba(0, 0, 0, 0);
+    }
+    
+    &__img {
+        margin: auto;
+        width: 75%;
+        height: auto;
+    }
+    
+    &_selection {
+        border-radius: 1rem;
+        box-shadow: 
+            0 10rem 8rem rgba(0, 0, 0, .02),
+            0 6.481rem 4.685rem rgba(0, 0, 0, .015),
+            0 3.851rem 2.548rem rgba(0, 0, 0, .012),
+            0 2rem 1.3rem rgba(0, 0, 0, .01),
+            0 .814rem .651rem rgba(0, 0, 0, .007),
+            0 1.851rem .314rem rgba(0, 0, 0, .004);
+        filter: grayscale(0);
+        cursor: auto;
+        background: #FFFFFF;
+    }
+}
